@@ -1,0 +1,41 @@
+experiment:
+  name: orchids_ai_deocclusion
+  seed: 42
+  output_dir: outputs
+
+data:
+  image_size: 128
+  train_root: data/celeba/train
+  val_root: data/celeba/val
+  use_synthetic_if_missing: true
+  synthetic_samples: 400
+  val_synthetic_samples: 80
+
+training:
+  epochs: 2
+  batch_size: 8
+  num_workers: 0
+  learning_rate_g: 0.0002
+  learning_rate_d: 0.0002
+  betas: [0.5, 0.999]
+  lambda_l1: 10.0
+  lambda_perceptual: 1.0
+  lambda_identity: 1.0
+  lambda_adv: 0.1
+  lambda_smooth: 0.05
+  occlusion_threshold: 0.12
+  grad_clip: 1.0
+  device: auto
+  use_pytorch3d_prior: true
+
+inference:
+  checkpoint: outputs/checkpoints/latest.pt
+  num_examples: 8
+
+ablation:
+  variants: [full, no_prior, no_identity, no_adversarial]
+  output_subdir: ablations
+  results_json: outputs/eval/ablation_results.json
+  table_png: outputs/eval/ablation_table.png
+  panel_png: outputs/eval/ablation_visual_comparison.png
+  seed_offset_per_variant: 100

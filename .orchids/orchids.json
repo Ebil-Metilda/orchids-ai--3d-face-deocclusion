@@ -1,0 +1,9 @@
+{
+  "projectId": "608d24cb-4fa5-4525-9a3d-aa570a887548",
+  "createdAt": 1771999977685,
+  "version": "1.0",
+  "startupCommands": [
+    "python3 -m pip install --no-cache-dir -r requirements.txt; python3 run.py all"
+  ],
+  "templateId": "any"
+}

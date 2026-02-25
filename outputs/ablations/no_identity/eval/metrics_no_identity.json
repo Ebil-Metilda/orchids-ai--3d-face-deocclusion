@@ -1,0 +1,9 @@
+{
+  "psnr": 26.158238029479982,
+  "ssim": 0.955607146024704,
+  "l1": 0.01538633657619357,
+  "identity_similarity": 0.9999903678894043,
+  "variant": "no_identity",
+  "pytorch3d_prior_requested": true,
+  "pytorch3d_available": false
+}

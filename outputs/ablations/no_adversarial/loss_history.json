@@ -1,0 +1,24 @@
+[
+  {
+    "train_recon": 0.1444916655868292,
+    "train_gen": 0.8127913983166217,
+    "train_disc": 0.0,
+    "train_l1": 0.06807753961533308,
+    "train_perceptual": 0.002900252277031541,
+    "train_identity": 0.0010224771499633789,
+    "train_adversarial": 0.0,
+    "train_smoothness": 0.0437007961422205,
+    "val_l1": 0.011242306791245937
+  },
+  {
+    "train_recon": 0.028733677119016646,
+    "train_gen": 0.07965422481298447,
+    "train_disc": 0.0,
+    "train_l1": 0.005908501162193716,
+    "train_perceptual": 0.00029350510332733394,
+    "train_identity": 9.249448776245118e-06,
+    "train_adversarial": 0.0,
+    "train_smoothness": 0.019191517531871795,
+    "val_l1": 0.005869794636964798
+  }
+]

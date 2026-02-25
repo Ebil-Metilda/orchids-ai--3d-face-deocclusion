@@ -1,0 +1,38 @@
+[
+  {
+    "psnr": 29.740724563598633,
+    "ssim": 0.9800269186496735,
+    "l1": 0.004321605851873756,
+    "identity_similarity": 0.9999988555908204,
+    "variant": "full",
+    "pytorch3d_prior_requested": true,
+    "pytorch3d_available": false
+  },
+  {
+    "psnr": 29.831668853759766,
+    "ssim": 0.9780578255653382,
+    "l1": 0.005001341155730188,
+    "identity_similarity": 0.9999986827373505,
+    "variant": "no_prior",
+    "pytorch3d_prior_requested": true,
+    "pytorch3d_available": false
+  },
+  {
+    "psnr": 26.158238029479982,
+    "ssim": 0.955607146024704,
+    "l1": 0.01538633657619357,
+    "identity_similarity": 0.9999903678894043,
+    "variant": "no_identity",
+    "pytorch3d_prior_requested": true,
+    "pytorch3d_available": false
+  },
+  {
+    "psnr": 28.605216598510744,
+    "ssim": 0.975403368473053,
+    "l1": 0.005964782275259495,
+    "identity_similarity": 0.999995905160904,
+    "variant": "no_adversarial",
+    "pytorch3d_prior_requested": true,
+    "pytorch3d_available": false
+  }
+]
